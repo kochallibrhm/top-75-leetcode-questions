@@ -31,7 +31,7 @@ public class Solution
     public int MaxProfit(int[] prices)
     {
         var maxProfit = 0;
-        var minPrice = prices[
+        var minPrice = prices[0];
         if (prices.Length < 2 || prices == null)
             return maxProf
         foreach (var price in prices)
