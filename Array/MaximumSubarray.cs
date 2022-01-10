@@ -33,8 +33,7 @@ public class Solution {
         
         for(int i = 0; i < nums.Length; i++){
             max_ending += nums[i];
-            if(max < max_ending)
-                max = max_ending;
+            max = Math.Max(max, max_ending);
             if(max_ending < 0)
                 max_ending = 0;
         }
