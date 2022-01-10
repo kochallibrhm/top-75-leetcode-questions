@@ -32,7 +32,7 @@ public class Solution {
         int max_ending = 0;
         
         for(int i = 0; i < nums.Length; i++){
-            max_ending = max_ending + nums[i];
+            max_ending += nums[i];
             if(max < max_ending)
                 max = max_ending;
             if(max_ending < 0)
