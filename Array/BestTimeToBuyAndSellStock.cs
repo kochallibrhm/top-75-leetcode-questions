@@ -33,7 +33,7 @@ public class Solution
         var maxProfit = 0;
         var minPrice = prices[0];
         if (prices.Length < 2 || prices == null)
-            return maxProf
+            return maxProfit;
         foreach (var price in prices)
         {
             minPrice = Math.Min(minPrice, price);
