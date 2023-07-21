@@ -10,4 +10,4 @@ You can reach entire list from here
 https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 
 
-> Last solved question in list: Clone Graph
+> Last solved question in list: Reversed linked list (skipped graph and interval)
